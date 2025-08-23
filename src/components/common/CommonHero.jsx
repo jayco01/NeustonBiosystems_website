@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
 
-export default function CommonHero({heroImage, h1Text, subHeading}) {
+export default function CommonHero({heroImage, H1Text, subHeading}) {
     return (
         <section className="relative h-screen">
             <img
@@ -13,14 +13,10 @@ export default function CommonHero({heroImage, h1Text, subHeading}) {
 
             <div className="relative h-full flex flex-col">
                 <div>
-                    <h1>{h1Text}</h1>
+                    <H1Text/>
                 </div>
                 <div>
                     <p>{subHeading}</p>
-                </div>
-                <div>
-                    <Link to={'/for-investors'}>For Investors</Link>
-                    <Link to={'/for-cheese-producers'}>For Cheese Producers</Link>
                 </div>
             </div>
         </section>

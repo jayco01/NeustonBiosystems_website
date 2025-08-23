@@ -5,7 +5,7 @@ export default function InvestorsRoadmap() {
     function Line() {
         return (
             <div className="relative h-1 bg-gray-300">
-                <div className="absolute top-1/2 left-1/2 w-4 h-4 bg-green-600 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
+                <div className="absolute top-1/2 right-0 w-4 h-4 bg-green-600 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
             </div>
         );
     }
@@ -17,7 +17,7 @@ export default function InvestorsRoadmap() {
                     We aim to validate, pilot, and scale our innovative solution for the cheese industry.
                 </p>
             </div>
-            <div className="grid grid-cols-3 grid-rows-[1fr_auto_1fr] w-full max-w-md h-96 gap-2 text-center">
+            <div className="grid grid-cols-3 grid-rows-[1fr_auto_1fr] w-full h-96 gap-2 text-center">
                 {/* Row 1 */}
                 <div/>
                 <CommonTimelineItem

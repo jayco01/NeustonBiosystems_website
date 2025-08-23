@@ -7,7 +7,12 @@ import ProducersListOfProblems from "../components/for-cheese-producers/Producer
 import ProducersSolutionStatement from "../components/for-cheese-producers/ProducersSolutionStatement.jsx";
 
 export default function ForCheeseProducersPage() {
-    const h1Text = "Stop Paying to Throw Away a Valuable Resource";
+    function H1Text() {
+        return (
+            <h1>Stop Paying to Throw Away a <span>Valuable Resource</span></h1>
+        );
+    }
+
     const subHeading = "Whey disposal is a significant expense for mid-scale cheese producers. " +
         "We're developing an innovative solution that transforms this challenge into an opportunity.";
 
@@ -16,7 +21,7 @@ export default function ForCheeseProducersPage() {
 
     return (
         <div>
-            <CommonHero heroImage={heroImage} h1Text={h1Text} subHeading={subHeading}/>
+            <CommonHero heroImage={heroImage} H1Text={H1Text} subHeading={subHeading}/>
             <ProducersProblemStatement/>
             <ProducersListOfProblems/>
             <ProducersSolutionStatement/>

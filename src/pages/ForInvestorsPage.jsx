@@ -8,7 +8,13 @@ import InvestorsRoadmap from "../components/for-investors/InvestorsRoadmap.jsx";
 import InvestorsFundingNumbers from "../components/for-investors/InvestorsFundingNumbers.jsx";
 
 export default function ForInvestorsPage() {
-    const h1Text = "Investing in the Future of the Circular Economy";
+    function H1Text() {
+        return (
+            <h1>Investing in the Future of the <span>Circular Economy</span></h1>
+        );
+    }
+
+
     const subHeading = "Tapping into the $6.4B global cheese cleanup market";
 
     const ctaHeading = "Take the Next Step";
@@ -16,7 +22,7 @@ export default function ForInvestorsPage() {
 
     return (
         <div>
-            <CommonHero heroImage={heroImage} h1Text={h1Text} subHeading={subHeading}/>
+            <CommonHero heroImage={heroImage} H1Text={H1Text} subHeading={subHeading}/>
             <InvestorsProblemStatement/>
             <InvestorsTargetMarget/>
             <InvestorsSolutionStatement/>
