@@ -13,11 +13,11 @@ export default function Navbar() {
                     <Link to="/" className="text-base font-medium text-gray-500 hover:text-gray-900">
                         Home
                     </Link>
-                    <Link to="/for-investors" className="text-base font-medium text-gray-500 hover:text-gray-900">
-                        For Investors
-                    </Link>
                     <Link to="/for-cheese-producers" className="text-base font-medium text-gray-500 hover:text-gray-900">
                         For Cheese Producers
+                    </Link>
+                    <Link to="/for-investors" className="text-base font-medium text-gray-500 hover:text-gray-900">
+                        For Investors
                     </Link>
                     <Link to="/sustainability" className="text-base font-medium text-gray-500 hover:text-gray-900">
                         Sustainability
