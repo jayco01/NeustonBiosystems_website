@@ -4,7 +4,7 @@ import sewerIcon from '../../assets/sewer_icon.svg'
 import checkIcon from '../../assets/check_icon.png'
 import closeIcon from '../../assets/close_icon.png'
 
-export default function ComparisonTable() {
+export default function CommonComparisonTable() {
     return (
       <div>
           <table className="table">
