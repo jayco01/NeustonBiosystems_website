@@ -1,3 +1,6 @@
+import HomeHero from "../components/home/HomeHero.jsx";
 export default function HomePage() {
-    return <h1 className="text-3xl font-bold text-center mt-10">Home Page</h1>;
+    return (
+        <HomeHero/>
+    );
 }
