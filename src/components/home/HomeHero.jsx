@@ -3,7 +3,7 @@ import heroImage from "../../assets/water-treatment-plant_home-page.jpg"
 
 export default function HomeHero() {
     return (
-        <div className="relative h-screen">
+        <section className="relative h-screen">
             <img
                 src={heroImage}
                 alt="Water Treatment Plant"
@@ -26,6 +26,6 @@ export default function HomeHero() {
                     <Link to={'/for-cheese-producers'}>For Cheese Producers</Link>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

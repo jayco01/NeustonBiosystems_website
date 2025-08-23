@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 
 export default function CommonHero({heroImage, h1Text, subHeading}) {
     return (
-        <div className="relative h-screen">
+        <section className="relative h-screen">
             <img
                 src={heroImage}
                 alt="Water Treatment Plant"
@@ -23,6 +23,6 @@ export default function CommonHero({heroImage, h1Text, subHeading}) {
                     <Link to={'/for-cheese-producers'}>For Cheese Producers</Link>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

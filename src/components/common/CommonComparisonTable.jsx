@@ -6,7 +6,7 @@ import closeIcon from '../../assets/close_icon.png'
 
 export default function CommonComparisonTable() {
     return (
-      <div>
+      <section>
           <table className="table">
               <thead>
                   <tr>
@@ -88,6 +88,6 @@ export default function CommonComparisonTable() {
                 </tr>
               </tbody>
           </table>
-      </div>
+      </section>
     );
 }

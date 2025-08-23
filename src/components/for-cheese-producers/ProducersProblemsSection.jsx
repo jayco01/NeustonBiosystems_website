@@ -5,7 +5,7 @@ import chemicalPlantIcon from "../../assets/ChemicalPlant_Icon.png";
 
 export default function ProducersProblemsSection() {
     return (
-        <div>
+        <section>
             <div>
                 <img src={truckIcon} alt="truck icon" />
                 <h3>Hauling</h3>
@@ -21,6 +21,6 @@ export default function ProducersProblemsSection() {
                 <h3>On-Site Systems</h3>
                 <p>100% of producers we surveyed have tried and failed to buy an affordable on-site system in the last 10 years.</p>
             </div>
-        </div>
+        </section>
     );
 }

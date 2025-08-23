@@ -4,7 +4,7 @@ import joinIcon from "../../assets/join_icon.png"
 
 export default function HomeBody() {
     return (
-        <div>
+        <section>
             <div>
                 <h2>Addressing Waste Management Challenges for Cheese Producers</h2>
                 <p>Mid-scale Cheese producers face significant challenges in managing their waste effectively.
@@ -27,6 +27,6 @@ export default function HomeBody() {
                     <p>Partner with us to embrace a sustainable future.</p>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

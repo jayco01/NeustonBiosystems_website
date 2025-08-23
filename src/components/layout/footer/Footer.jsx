@@ -6,13 +6,13 @@ import FooterBottom from "./FooterBottom.jsx";
 
 export default function Footer() {
 return (
-    <div>
+    <footer>
         <div>
             <Column1/>
             <Column2/>
             <Column3/>
         </div>
         <FooterBottom/>
-    </div>
+    </footer>
 )
 }

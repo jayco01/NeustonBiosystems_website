@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 
 export default function HomeCta() {
     return (
-        <div>
+        <section>
             <div>
                 <h2>Explore Your Opportunities Today</h2>
             </div>
@@ -14,6 +14,6 @@ export default function HomeCta() {
                     <Link to={'/for-cheese-producers'}>For Cheese Producers</Link>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
