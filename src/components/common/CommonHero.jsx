@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
 
-export default function CommonHero({heroImage, h1Text, SubHeading}) {
+export default function CommonHero({heroImage, h1Text, subHeading}) {
     return (
         <div className="relative h-screen">
             <img
@@ -16,7 +16,7 @@ export default function CommonHero({heroImage, h1Text, SubHeading}) {
                     <h1>{h1Text}</h1>
                 </div>
                 <div>
-                    <p>{SubHeading}</p>
+                    <p>{subHeading}</p>
                 </div>
                 <div>
                     <Link to={'/for-investors'}>For Investors</Link>
