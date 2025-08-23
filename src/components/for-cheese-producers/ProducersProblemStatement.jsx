@@ -1,6 +1,6 @@
 import mixingCheese from "../../assets/CheeseWhey.jpg"
 
-export default function ProducersProblemStatementSection() {
+export default function ProducersProblemStatement() {
     return (
       <section>
           <div>

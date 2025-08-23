@@ -2,9 +2,9 @@ import CommonHero from "../components/common/CommonHero.jsx";
 import CommonComparisonTable from "../components/common/CommonComparisonTable.jsx";
 import heroImage from "../assets/two-guys-making-cheese.jpg"
 import CommonCta from "../components/common/CommonCta.jsx";
-import ProducersProblemStatementSection from "../components/for-cheese-producers/ProducersProblemStatementSection.jsx";
-import ProducersProblemsSection from "../components/for-cheese-producers/ProducersProblemsSection.jsx";
-import ProducersSolutionSection from "../components/for-cheese-producers/ProducersSolutionSection.jsx";
+import ProducersProblemStatement from "../components/for-cheese-producers/ProducersProblemStatement.jsx";
+import ProducersListOfProblems from "../components/for-cheese-producers/ProducersListOfProblems.jsx";
+import ProducersSolutionStatement from "../components/for-cheese-producers/ProducersSolutionStatement.jsx";
 
 export default function ForCheeseProducersPage() {
     const h1Text = "Stop Paying to Throw Away a Valuable Resource";
@@ -17,9 +17,9 @@ export default function ForCheeseProducersPage() {
     return (
         <div>
             <CommonHero heroImage={heroImage} h1Text={h1Text} subHeading={subHeading}/>
-            <ProducersProblemStatementSection/>
-            <ProducersProblemsSection/>
-            <ProducersSolutionSection/>
+            <ProducersProblemStatement/>
+            <ProducersListOfProblems/>
+            <ProducersSolutionStatement/>
             <CommonComparisonTable/>
             <CommonCta headingText={ctaHeading} descriptionText={ctaDescription}/>
         </div>

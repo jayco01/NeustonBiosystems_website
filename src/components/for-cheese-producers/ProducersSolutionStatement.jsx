@@ -1,6 +1,6 @@
 import productDiagram from "../../assets/CircularEconomy_diagram.png";
 
-export default function ProducersSolutionSection() {
+export default function ProducersSolutionStatement() {
     return (
         <section>
             <img src={productDiagram} />

@@ -3,7 +3,7 @@ import sewerIcon from "../../assets/sewer_icon.svg";
 import chemicalPlantIcon from "../../assets/ChemicalPlant_Icon.png";
 
 
-export default function ProducersProblemsSection() {
+export default function ProducersListOfProblems() {
     return (
         <section>
             <div>
