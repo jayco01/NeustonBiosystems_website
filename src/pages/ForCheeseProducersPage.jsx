@@ -2,6 +2,7 @@ import CommonHero from "../components/common/CommonHero.jsx";
 import CommonComparisonTable from "../components/common/CommonComparisonTable.jsx";
 import heroImage from "../assets/two-guys-making-cheese.jpg"
 import CommonCta from "../components/common/CommonCta.jsx";
+import ProducersProblemStatementSection from "../components/for-cheese-producers/ProducersProblemStatementSection.jsx";
 
 export default function ForCheeseProducersPage() {
     const h1Text = "Stop Paying to Throw Away a Valuable Resource";
@@ -13,6 +14,7 @@ export default function ForCheeseProducersPage() {
     return (
         <div>
             <CommonHero heroImage={heroImage} h1Text={h1Text} subHeading={subHeading}/>
+            <ProducersProblemStatementSection/>
             <CommonComparisonTable/>
             <CommonCta headingText={ctaHeading} descriptionText={ctaDescription}/>
         </div>
