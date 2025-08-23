@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom';
+import linkedinIcon from "../../../assets/LinkedIn_Icon.svg"
 
 export default function Column3() {
     return (
@@ -6,7 +6,10 @@ export default function Column3() {
             <h4> Stay Connected</h4>
             <ul>
                 <li>Contact Us</li>
-                <li>LinkedIn</li>
+                <li>
+                    <img src={linkedinIcon}/>
+                    <span>LinkedIn</span>
+                </li>
             </ul>
         </div>
     )
