@@ -2,6 +2,7 @@ import CommonHero from "../components/common/CommonHero.jsx";
 import heroImage from "../assets/two-guys-making-cheese.jpg";
 import CommonCta from "../components/common/CommonCta.jsx";
 import SustainabilityGoals from "../components/sustainability/SustainabilityGoals.jsx";
+import SustainabilitySolutions from "../components/sustainability/SustainabilitySolutions.jsx";
 
 export default function SustainabilityPage() {
     function H1Text() {
@@ -18,6 +19,7 @@ export default function SustainabilityPage() {
         <div>
             <CommonHero heroImage={heroImage} H1Text={H1Text} subHeading={subHeading}/>
             <SustainabilityGoals/>
+            <SustainabilitySolutions/>
             <CommonCta headingText={ctaHeading} descriptionText={ctaDescription}/>
         </div>
     );
