@@ -1,5 +1,6 @@
 import {Routes,  Route} from "react-router-dom";
 import Navbar from "./components/layout/Navbar.jsx";
+import Footer from "./components/layout/Footer/Footer.jsx";
 import HomePage from "./pages/HomePage";
 import AboutUsPage from "./pages/AboutUsPage";
 import CareersPage from "./pages/CareersPage";
@@ -23,6 +24,7 @@ export default function App() {
                     <Route path="/contact" element={<ContactPage />} />
                 </Routes>
             </main>
+            <Footer />
         </>
     );
 }
