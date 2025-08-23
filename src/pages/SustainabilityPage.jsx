@@ -13,16 +13,12 @@ export default function SustainabilityPage() {
     }
     const subHeading = "";
 
-    const ctaHeading = "Take the Next Step";
-    const ctaDescription = "Join us in revolutionizing the cheese industry and securing a sustainable future together.";
-
     return (
         <div>
             <CommonHero heroImage={heroImage} H1Text={H1Text} subHeading={subHeading}/>
             <SustainabilityGoals/>
             <SustainabilitySolutions/>
             <SustainabilityCircularEconomy/>
-            <CommonCta headingText={ctaHeading} descriptionText={ctaDescription}/>
         </div>
     );
 }
