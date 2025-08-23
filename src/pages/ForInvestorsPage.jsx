@@ -4,6 +4,7 @@ import CommonCta from "../components/common/CommonCta.jsx";
 import InvestorsProblemStatement from "../components/for-investors/InvestorsProblemStatement.jsx";
 import InvestorsTargetMarget from "../components/for-investors/InvestorsTargetMarget.jsx";
 import InvestorsSolutionStatement from "../components/for-investors/InvestorsSolutionStatement.jsx";
+import InvestorsRoadmap from "../components/for-investors/InvestorsRoadmap.jsx";
 
 export default function ForInvestorsPage() {
     const h1Text = "Investing in the Future of the Circular Economy";
@@ -18,6 +19,7 @@ export default function ForInvestorsPage() {
             <InvestorsProblemStatement/>
             <InvestorsTargetMarget/>
             <InvestorsSolutionStatement/>
+            <InvestorsRoadmap/>
             <CommonCta headingText={ctaHeading} descriptionText={ctaDescription}/>
         </div>
     );
