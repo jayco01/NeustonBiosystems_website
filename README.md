@@ -28,7 +28,7 @@ To run this project on your local machine, please follow these steps.
 1.  **Clone the Repository**
     Open your terminal and clone the project from GitHub.
     ```bash
-    git clone [repository-url]
+    git clone https://github.com/jayco01/NeustonBiosystems_website.git
     ```
 
 2.  **Navigate to the Project Directory**
