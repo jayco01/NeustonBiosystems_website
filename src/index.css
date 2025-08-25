@@ -22,6 +22,9 @@
 }
 
 @layer base {
+    h1 {
+        @apply text-7xl leading-3 text-neuston-Amber-Lighter font-semibold;
+    }
     h2 {
         @apply text-6xl leading-3 text-neuston-Amber-Darkest font-family-poppins font-semibold;
     }
