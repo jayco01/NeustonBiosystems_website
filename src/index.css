@@ -2,7 +2,7 @@
 
 @theme {
     /* Color Palette */
-    --color-neuston-Amber-Lightest: #3FFF8E6;
+    --color-neuston-Amber-Lightest: #FFF8E6;
     --color-neuston-Amber-Lighter: #FFF2CD;
     --color-neuston-Amber-Light: #FFD351;
     --color-neuston-Amber: #FFC107;
@@ -35,6 +35,6 @@
         @apply text-xl leading-2.5 font-medium font-family-sans;
     }
     .nav-btn {
-        @apply inline-flex items-center justify-center text-xl h-full w-full font-medium text-neuston-Amber-Darkest hover:bg-neuston-Amber-Lighter hover:text-neuston-Amber-Dark text-nowrap rounded-b-md;
+        @apply pr-2 pl-2 inline-flex items-center justify-center text-xl h-full w-full font-medium text-neuston-Amber-Darkest hover:bg-neuston-Amber-Lightest hover:text-neuston-Amber-Dark text-nowrap rounded-b-md;
     }
 }
