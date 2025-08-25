@@ -34,4 +34,7 @@
     p{
         @apply text-xl leading-2.5 font-medium font-family-sans;
     }
+    .nav-btn {
+        @apply inline-flex items-center justify-center text-xl h-full w-full font-medium text-neuston-Amber-Darkest hover:bg-neuston-Amber-Lighter hover:text-neuston-Amber-Dark text-nowrap rounded-b-md;
+    }
 }
