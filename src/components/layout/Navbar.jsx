@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
+import neustonLogo from "../../assets/NeustonBiosystemsLOGO.png"
 
 export default function Navbar() {
     return (
         <header className="bg-white shadow-sm sticky top-0 z-50">
             <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20">
                 <div>
-                    <Link to="/" className="text-2xl font-bold text-gray-800 hover:text-gray-600">
-                        Neuston Biosystems
+                    <Link to="/" className="">
+                        <img src={neustonLogo} alt="Neuston Biosystems logo" />
                     </Link>
                 </div>
                 <div className="md:flex items-center space-x-8">

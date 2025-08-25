@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+@theme {
+    /* Color Palette */
+    --color-neuston-Amber-Lightest: #3FFF8E6;
+    --color-neuston-Amber-Lighter: #FFF2CD;
+    --color-neuston-Amber-Light: #FFD351;
+    --color-neuston-Amber: #FFC107;
+    --color-neuston-Amber-Dark: #CC9A05;
+    --color-neuston-Amber-Darker: #664D02;
+    --color-neuston-Amber-Darkest: #4C3902;
+
+    /* typography */
+    --font-family-sans: "Lato", sans-serif;
+    --font-family-poppins: "Poppins", sans-serif;
+
+    /* Breakpoints */
+    --breakpoint-sm: 640px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1280px;
+}
