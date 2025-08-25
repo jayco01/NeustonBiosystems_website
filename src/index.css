@@ -28,6 +28,9 @@
     h2 {
         @apply text-6xl leading-3 text-neuston-Amber-Darkest font-family-poppins font-semibold;
     }
+    h4 {
+        @apply text-3xl leading-2 font-family-poppins font-medium;
+    }
     p{
         @apply text-xl leading-2.5 font-medium font-family-sans;
     }
