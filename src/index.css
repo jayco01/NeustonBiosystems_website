@@ -38,3 +38,9 @@
         @apply pr-2 pl-2 inline-flex items-center justify-center text-xl h-full w-full font-medium text-neuston-Amber-Darkest hover:bg-neuston-Amber-Lightest hover:text-neuston-Amber-Dark text-nowrap rounded-b-md;
     }
 }
+
+/*@layer components {*/
+/*    .default-layout {*/
+/*        @apply ;*/
+/*    }*/
+/*}*/
