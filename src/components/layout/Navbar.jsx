@@ -55,7 +55,12 @@ export default function Navbar() {
                     </button>
                 </div>
 
-                <div className={`${isOpen ? 'block' : 'hidden'} md:hidden`}>
+                <div className={`${isOpen ? '"block"' : 'hidden'} 
+                    md:hidden
+                    absolute w-full left-0 top-[72px] 
+                  bg-neuston-Amber-Lighter 
+                    border-t border-gray-300`}
+                    >
                     <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                         {navLinks.map((link) => (
                             <a
