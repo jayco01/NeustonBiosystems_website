@@ -4,7 +4,7 @@ import joinIcon from "../../assets/join_icon.png"
 
 export default function HomeBody() {
     return (
-        <section>
+        <section className="fluid-layout-padding">
             <div>
                 <h2>Addressing Waste Management Challenges for Cheese Producers</h2>
                 <p>Mid-scale Cheese producers face significant challenges in managing their waste effectively.

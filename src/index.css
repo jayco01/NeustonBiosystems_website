@@ -19,6 +19,8 @@
     --breakpoint-md: 768px;
     --breakpoint-lg: 1024px;
     --breakpoint-xl: 1280px;
+
+    --fluid-layout-padding: px-[clamp(1.25rem, 6vw, 4rem)] py-[clamp(4rem, 9vw, 7rem)];
 }
 
 @layer base {
@@ -39,8 +41,6 @@
     }
 }
 
-/*@layer components {*/
-/*    .default-layout {*/
-/*        @apply ;*/
-/*    }*/
-/*}*/
+@utility fluid-layout-padding {
+    @apply max-w-7xl mx-auto px-[clamp(1.25rem,6vw,4rem)] py-[clamp(4rem,9vw,7rem)];
+}
