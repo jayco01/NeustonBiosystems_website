@@ -9,11 +9,11 @@ export default function CommonHero({heroImage, H1Text, subHeading}) {
             <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div>
 
             <div className="relative z-10 fluid-layout-padding">
-                <div>
+                <div className="max-w-240">
                     <H1Text/>
                 </div>
                 <div>
-                    <p>{subHeading}</p>
+                    <p className="common-subheading-base-syle">{subHeading}</p>
                 </div>
             </div>
         </section>
