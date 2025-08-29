@@ -31,15 +31,15 @@
         @apply text-[clamp(2rem,7.25vw,3.75rem)] text-neuston-Amber-Darkest font-family-poppins font-semibold;
     }
     h4 {
-        @apply  text-[clamp(0.5rem,5.375vw,1.875rem)] font-family-poppins font-medium;
+        @apply  text-[clamp(1rem,3vw,1.875rem)] font-family-poppins font-semibold;
     }
     p{
-        @apply text-[clamp(0.5rem,3.5vw,1.25rem)] font-medium font-family-sans;
+        @apply text-[clamp(0.75rem,3.5vw,1.25rem)] font-medium font-family-sans;
     }
 }
 
 @utility fluid-layout-padding {
-    @apply max-w-7xl mx-auto px-[clamp(1.25rem,6vw,4rem)] py-[clamp(4rem,9vw,7rem)];
+    @apply w-full mx-auto px-[clamp(1.25rem,6vw,4rem)] py-[clamp(4rem,9vw,7rem)];
 }
 
 @utility btn-base-style{
@@ -48,4 +48,8 @@
 
 @utility nav-btn {
     @apply pr-2 pl-2 inline-flex items-center justify-center text-xl h-full w-full font-medium text-neuston-Amber-Darkest active:bg-neuston-Amber-Lightest hover:text-neuston-Amber-Dark text-nowrap rounded-b-md;
+}
+
+@utility icon-base-style {
+    @apply max-w-12 max-h-12;
 }
