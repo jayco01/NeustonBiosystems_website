@@ -43,7 +43,7 @@
 }
 
 @utility btn-base-style{
-    @apply rounded-md px-3 py-1.5 font-semibold font-family-sans text-[clamp(0.5rem,3.5vw,1.25rem)]  hover:scale-105;
+    @apply rounded-md px-3 py-1.5 font-semibold font-family-sans text-[clamp(0.5rem,3.5vw,1.25rem)]  hover:scale-105 w-fit h-fit;
 }
 
 @utility nav-btn {
