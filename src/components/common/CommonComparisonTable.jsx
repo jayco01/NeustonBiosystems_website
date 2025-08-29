@@ -6,54 +6,74 @@ import closeIcon from '../../assets/close_icon.png'
 
 export default function CommonComparisonTable() {
     return (
-      <section>
-          <table className="table">
+      <section className="fluid-layout-padding text-neuston-Amber-Darkest bg-neuston-Amber-Lighter">
+          <table className="table w-full border-collapse text-center">
               <thead>
-                  <tr>
+                  <tr className="border-solid border-b-1 border-neuston-Amber-Darkest">
                       <th scope="col"></th>
-                      <th scope="col">
-                          <img src={neustonLogo} alt="Neuston Logo" />
+                      <th scope="col" className="px-6 py-3 ">
+                          <div className="flex flex-col items-center justify-center">
+                          <img src={neustonLogo} alt="Neuston Logo" className="max-w-21 max-h-10" />
                           <h5>Neuston Biosystem</h5>
+                          </div>
                       </th>
-                      <th scope="col">
-                          <img src={truckIcon} alt="Truck Icon" />
+                      <th scope="col" className="px-6 py-3 ">
+                          <div className="flex flex-col items-center justify-center">
+                          <img src={truckIcon} alt="Truck Icon" className="icon-base-style" />
                           <h5>Off-site Hauling</h5>
+                          </div>
                       </th>
-                      <th scope="col">
-                          <img src={sewerIcon} alt="Sewer Icon" />
+                      <th scope="col" className="px-6 py-3 ">
+                          <div className="flex flex-col items-center justify-center">
+                          <img src={sewerIcon} alt="Sewer Icon" className="icon-base-style" />
                           <h5>Sewer Disposal</h5>
+                          </div>
                       </th>
                   </tr>
               </thead>
               <tbody>
-                <tr>
-                    <th scope="row">Reduce Disposal Costs</th>
+                <tr className="border-solid border-b-1 border-neuston-Amber-Darkest">
+                    <th scope="row" className="text-left">Reduce Disposal Costs</th>
                     <td>
-                        <img src={checkIcon} alt="Check Icon" />
+                        <div className="flex items-center justify-center">
+                        <img src={checkIcon} alt="Check Icon" className="icon-base-style" />
+                            </div>
                     </td>
                     <td>
-                        <img src={closeIcon} alt="Close Icon" />
+                        <div className="flex items-center justify-center">
+                        <img src={closeIcon} alt="Close Icon" className="icon-base-style" />
+                            </div>
                     </td>
                     <td>
-                        <img src={closeIcon} alt="Close Icon" />
-                    </td>
-                </tr>
-                <tr>
-                    <th scope="row">Creates Valuable Byproduct</th>
-                    <td>
-                        <img src={checkIcon} alt="Check Icon" />
-                    </td>
-                    <td>
-                        <img src={closeIcon} alt="Close Icon" />
-                    </td>
-                    <td>
-                        <img src={closeIcon} alt="Close Icon" />
+                        <div className="flex items-center justify-center">
+                        <img src={closeIcon} alt="Close Icon" className="icon-base-style" />
+                            </div>
                     </td>
                 </tr>
-                <tr>
-                    <th scope="row">Low On-site Footprint</th>
+                <tr className="border-solid border-b-1 border-neuston-Amber-Darkest">
+                    <th scope="row" className="text-left">Creates Valuable Byproduct</th>
                     <td>
-                        <img src={checkIcon} alt="Check Icon" />
+                        <div className="flex items-center justify-center">
+                        <img src={checkIcon} alt="Check Icon" className="icon-base-style" />
+                            </div>
+                    </td>
+                    <td>
+                        <div className="flex items-center justify-center">
+                        <img src={closeIcon} alt="Close Icon" className="icon-base-style" />
+                            </div>
+                    </td>
+                    <td>
+                        <div className="flex items-center justify-center">
+                        <img src={closeIcon} alt="Close Icon" className="icon-base-style" />
+                            </div>
+                    </td>
+                </tr>
+                <tr className="border-solid border-b-1 border-neuston-Amber-Darkest">
+                    <th scope="row" className="text-left">Low On-site Footprint</th>
+                    <td>
+                        <div className="flex items-center justify-center">
+                        <img src={checkIcon} alt="Check Icon" className="icon-base-style" />
+                            </div>
                     </td>
                     <td>
                         N/A
@@ -62,28 +82,40 @@ export default function CommonComparisonTable() {
                         N/A
                     </td>
                 </tr>
-                <tr>
-                    <th scope="row">Environment Compliance</th>
+                <tr className="border-solid border-b-1 border-neuston-Amber-Darkest">
+                    <th scope="row" className="text-left">Environment Compliance</th>
                     <td>
-                        <img src={checkIcon} alt="Check Icon" />
+                        <div className="flex items-center justify-center">
+                        <img src={checkIcon} alt="Check Icon" className="icon-base-style" />
+                            </div>
                     </td>
                     <td>
-                        <img src={checkIcon} alt="Check Icon" />
+                        <div className="flex items-center justify-center">
+                        <img src={checkIcon} alt="Check Icon" className="icon-base-style" />
+                            </div>
                     </td>
                     <td>
-                        <img src={checkIcon} alt="Check Icon" />
+                        <div className="flex items-center justify-center">
+                        <img src={checkIcon} alt="Check Icon" className="icon-base-style" />
+                            </div>
                     </td>
                 </tr>
-                <tr>
-                    <th scope="row">Scales with Production</th>
+                <tr className="border-solid border-b-1 border-neuston-Amber-Darkest">
+                    <th scope="row" className="text-left">Scales with Production</th>
                     <td>
-                        <img src={checkIcon} alt="Check Icon" />
+                        <div className="flex items-center justify-center">
+                        <img src={checkIcon} alt="Check Icon" className="icon-base-style" />
+                            </div>
                     </td>
                     <td>
-                        <img src={closeIcon} alt="Close Icon" />
+                        <div className="flex items-center justify-center">
+                        <img src={closeIcon} alt="Close Icon" className="icon-base-style" />
+                            </div>
                     </td>
                     <td>
-                        <img src={closeIcon} alt="Close Icon" />
+                        <div className="flex items-center justify-center">
+                        <img src={closeIcon} alt="Close Icon" className="icon-base-style" />
+                            </div>
                     </td>
                 </tr>
               </tbody>
