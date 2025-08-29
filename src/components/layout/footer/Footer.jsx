@@ -6,11 +6,15 @@ import FooterBottom from "./FooterBottom.jsx";
 
 export default function Footer() {
 return (
-    <footer>
-        <div>
-            <Column1/>
-            <Column2/>
-            <Column3/>
+    <footer className="fluid-layout-padding text-neuston-Amber-Lightest bg-neuston-Amber-Dark flex flex-col gap-6">
+        <div className="flex sm:flex-row flex-col gap-6 justify-between">
+            <div className="flex-1">
+                <Column1/>
+            </div>
+            <div className="flex flex-1 sm:flex-row flex-col gap-6 justify-around">
+                <Column2/>
+                <Column3/>
+            </div>
         </div>
         <FooterBottom/>
     </footer>

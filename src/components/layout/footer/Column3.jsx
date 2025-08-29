@@ -6,7 +6,7 @@ export default function Column3() {
             <h4> Stay Connected</h4>
             <ul>
                 <li>Contact Us</li>
-                <li>
+                <li className="flex flex-row gap-1">
                     <img src={linkedinIcon}/>
                     <span>LinkedIn</span>
                 </li>

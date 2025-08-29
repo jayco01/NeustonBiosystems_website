@@ -1,6 +1,6 @@
 export default function FooterBottom() {
     return (
-        <div>
+        <div className="flex flex-row justify-between items-center">
             <p>&copy; 2025 Neuston Biosystems. All rights reserved.</p>
             <p>
                 Website by <a href="https://github.com/jayco01" target="_blank" rel="noopener noreferrer">Jay Layco</a>
