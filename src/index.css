@@ -44,3 +44,6 @@
 @utility fluid-layout-padding {
     @apply max-w-7xl mx-auto px-[clamp(1.25rem,6vw,4rem)] py-[clamp(4rem,9vw,7rem)];
 }
+@utility home-heading-text-spacing {
+    @apply flex items-start justify-center flex-col gap-20 h-full max-w-[clamp(15rem,70vw,53.375rem)];
+}
