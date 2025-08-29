@@ -5,11 +5,21 @@ export default function Column2() {
         <div>
             <h4> Quick Links</h4>
             <ul>
-                <li>Home Page</li>
-                <li>For Cheese Producers</li>
-                <li>For Investors</li>
-                <li>Sustainability</li>
-                <li>About Us</li>
+                <li>
+                    <Link to='/'> Home </Link>
+                </li>
+                <li>
+                    <Link to="/for-cheese-producers"> For Cheese Producers </Link>
+                </li>
+                <li>
+                    <Link to="/for-investors"> For Investors </Link>
+                </li>
+                <li>
+                    <Link to="/sustainability"> Sustainability </Link>
+                </li>
+                <li>
+                    <Link to="/about"> About Us </Link>
+                </li>
             </ul>
         </div>
     )
