@@ -11,19 +11,19 @@ export default function CommonComparisonTable() {
               <thead>
                   <tr className="border-solid border-b-1 border-neuston-Amber-Darkest">
                       <th scope="col"></th>
-                      <th scope="col" className="px-6 py-3 ">
+                      <th scope="col" className="sm:px-6 sm:py-3 ">
                           <div className="flex flex-col items-center justify-center">
                           <img src={neustonLogo} alt="Neuston Logo" className="max-w-21 max-h-10" />
                           <h5>Neuston Biosystem</h5>
                           </div>
                       </th>
-                      <th scope="col" className="px-6 py-3 ">
+                      <th scope="col" className="sm:px-6 sm:py-3  ">
                           <div className="flex flex-col items-center justify-center">
                           <img src={truckIcon} alt="Truck Icon" className="icon-base-style" />
                           <h5>Off-site Hauling</h5>
                           </div>
                       </th>
-                      <th scope="col" className="px-6 py-3 ">
+                      <th scope="col" className="sm:px-6 sm:py-3  ">
                           <div className="flex flex-col items-center justify-center">
                           <img src={sewerIcon} alt="Sewer Icon" className="icon-base-style" />
                           <h5>Sewer Disposal</h5>
