@@ -28,10 +28,10 @@
         @apply text-[clamp(2rem,8vw,4.5rem)] md:leading-16 leading-8 text-neuston-Amber-Lightest font-bold;
     }
     h2 {
-        @apply text-[clamp(2rem,7.25vw,3.75rem)] text-neuston-Amber-Darkest font-family-poppins font-semibold;
+        @apply text-[clamp(1.25rem,5.25vw,3.75rem)] text-neuston-Amber-Darkest font-family-poppins font-semibold;
     }
     h4 {
-        @apply  text-[clamp(1rem,3vw,1.875rem)] font-family-poppins font-semibold;
+        @apply  xl:text-[clamp(1rem,3vw,1.875rem)] text-[clamp(0.75rem,3.5vw,1.25rem)] font-family-poppins font-semibold;
     }
     p{
         @apply text-[clamp(0.75rem,3.5vw,1.25rem)] font-medium font-family-sans;

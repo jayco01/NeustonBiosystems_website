@@ -19,7 +19,7 @@ export default function HomeHero() {
                         <h1>To <span className="text-neuston-Amber">Revenue Stream</span></h1>
                     </div>
                     <div className="">
-                        <p className="text-neuston-Amber-Lightest max-w-3/4">At Neuston Biosystems, we transform wastewater challenges into profitable solutions for cheese producers.
+                        <p className="text-neuston-Amber-Lightest max-w-3xl">At Neuston Biosystems, we transform wastewater challenges into profitable solutions for cheese producers.
                             Join us in revolutionizing sustainability in the cheese industry.</p>
                     </div>
                     <div className="flex md:flex-row flex-col gap-4">
