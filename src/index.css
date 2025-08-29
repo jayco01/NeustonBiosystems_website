@@ -25,7 +25,7 @@
 
 @layer base {
     h1 {
-        @apply text-[clamp(2rem,8vw,4.5rem)] text-neuston-Amber-Lightest font-semibold;
+        @apply text-[clamp(2rem,8vw,4.5rem)] md:leading-16 leading-8 text-neuston-Amber-Lightest font-bold;
     }
     h2 {
         @apply text-[clamp(2rem,7.25vw,3.75rem)] text-neuston-Amber-Darkest font-family-poppins font-semibold;
@@ -34,7 +34,7 @@
         @apply  text-[clamp(0.5rem,5.375vw,1.875rem)] font-family-poppins font-medium;
     }
     p{
-        @apply text-[clamp(0.5rem,5vw,1.25rem)] font-medium font-family-sans;
+        @apply text-[clamp(0.5rem,3.5vw,1.25rem)] font-medium font-family-sans;
     }
     .nav-btn {
         @apply pr-2 pl-2 inline-flex items-center justify-center text-xl h-full w-full font-medium text-neuston-Amber-Darkest hover:bg-neuston-Amber-Lightest hover:text-neuston-Amber-Dark text-nowrap rounded-b-md;
@@ -43,4 +43,8 @@
 
 @utility fluid-layout-padding {
     @apply max-w-7xl mx-auto px-[clamp(1.25rem,6vw,4rem)] py-[clamp(4rem,9vw,7rem)];
+}
+
+@utility btn-base-style{
+    @apply rounded-md px-3 py-1.5 font-semibold font-family-sans text-[clamp(0.5rem,3.5vw,1.25rem)]  hover:scale-105;
 }
