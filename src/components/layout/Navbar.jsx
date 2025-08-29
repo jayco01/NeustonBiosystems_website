@@ -44,7 +44,7 @@ export default function Navbar() {
                         <img src={neustonLogo} className="max-w-21 max-h-10" alt="Neuston Biosystems logo" />
                     </Link>
                 </div>
-                <div className="lg:hidden">
+                <div className="xl:hidden">
                     <button
                         onClick={toggleMenu}
                         aria-expanded="false"
@@ -56,7 +56,7 @@ export default function Navbar() {
                 </div>
 
                 <div className={`${isOpen ? '"block"' : 'hidden'} 
-                    lg:hidden
+                    xl:hidden
                     absolute w-full left-0 top-[72px] 
                   bg-neuston-Amber-Lighter 
                     border-t border-gray-300`}
@@ -74,7 +74,7 @@ export default function Navbar() {
                     </div>
                 </div>
 
-                <div className="hidden lg:flex items-center space-x-5 h-full">
+                <div className="hidden xl:flex items-center space-x-5 h-full">
                     <Link to="/" className="md:nav-btn">
                             Home
                     </Link>

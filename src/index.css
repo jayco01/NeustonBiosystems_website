@@ -36,9 +36,6 @@
     p{
         @apply text-[clamp(0.5rem,3.5vw,1.25rem)] font-medium font-family-sans;
     }
-    .nav-btn {
-        @apply pr-2 pl-2 inline-flex items-center justify-center text-xl h-full w-full font-medium text-neuston-Amber-Darkest hover:bg-neuston-Amber-Lightest hover:text-neuston-Amber-Dark text-nowrap rounded-b-md;
-    }
 }
 
 @utility fluid-layout-padding {
@@ -47,4 +44,8 @@
 
 @utility btn-base-style{
     @apply rounded-md px-3 py-1.5 font-semibold font-family-sans text-[clamp(0.5rem,3.5vw,1.25rem)]  hover:scale-105;
+}
+
+@utility nav-btn {
+    @apply pr-2 pl-2 inline-flex items-center justify-center text-xl h-full w-full font-medium text-neuston-Amber-Darkest active:bg-neuston-Amber-Lightest hover:text-neuston-Amber-Dark text-nowrap rounded-b-md;
 }
