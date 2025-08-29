@@ -8,7 +8,7 @@ export default function CommonHero({heroImage, H1Text, subHeading}) {
 
             <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div>
 
-            <div className="relative z-10 fluid-layout-padding">
+            <div className="relative z-10 fluid-layout-padding flex flex-col md:gap-6">
                 <div className="max-w-240">
                     <H1Text/>
                 </div>
