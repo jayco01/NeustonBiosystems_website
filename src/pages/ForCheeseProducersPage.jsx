@@ -9,7 +9,7 @@ import ProducersSolutionStatement from "../components/for-cheese-producers/Produ
 export default function ForCheeseProducersPage() {
     function H1Text() {
         return (
-            <h1>Stop Paying to Throw Away a <span className="text-neuston-Amber">Valuable Resource</span></h1>
+            <h1 className="text-neuston-Amber-Lightest">Stop Paying to Throw Away a <span className="text-neuston-Amber">Valuable Resource</span></h1>
         );
     }
 

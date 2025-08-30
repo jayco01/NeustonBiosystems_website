@@ -10,7 +10,7 @@ import InvestorsFundingNumbers from "../components/for-investors/InvestorsFundin
 export default function ForInvestorsPage() {
     function H1Text() {
         return (
-            <h1>Investing in the Future of the <span className="text-neuston-Amber">Circular Economy</span></h1>
+            <h1 className="text-neuston-Amber-Lightest">Investing in the Future of the <span className="text-neuston-Amber">Circular Economy</span></h1>
         );
     }
     const subHeading = "Tapping into the $6.4B global cheese cleanup market";

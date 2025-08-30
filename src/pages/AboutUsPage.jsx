@@ -5,7 +5,7 @@ import AboutUsFounder from "../components/about-us/AboutUsFounder.jsx";
 export default function AboutUsPage() {
     function H1Text() {
         return (
-            <h1> Driven by <span>Science</span> and a Passion for <span>Sustainability</span> </h1>
+            <h1 className="text-neuston-Amber-Lightest"> Driven by <span className="text-neuston-Amber">Science</span> and a Passion for <span className="text-neuston-Amber">Sustainability</span> </h1>
         );
     }
     const subHeading = "";
