@@ -4,22 +4,28 @@ import locationIcon from "../../assets/location-on_icon.svg"
 
 export default function ContactInfo() {
     return (
-        <section>
-            <div>
-                <div>
-                    <img src={emailIcon} alt="Email icon" />
+        <section className="fluid-layout-padding text-neuston-Amber-Darkest bg-neuston-Amber-Lightest">
+            <div className="flex flex-col md:flex-row gap-6 md:gap-12">
+                <div className="flex flex-col gap-3">
+                    <div >
+                        <img src={emailIcon} alt="Email icon" className="icon-base-style"/>
+                    </div>
                     <h4>Email</h4>
                     <p>For inquiries, please reach out to us at the email below.</p>
                     <p>info@neustonbiosystems.com</p>
                 </div>
-                <div>
-                    <img src={phoneIcon} alt="Phone icon" />
+                <div className="flex flex-col gap-3">
+                    <div >
+                        <img src={phoneIcon} alt="Phone icon" className="icon-base-style"/>
+                    </div>
                     <h4>Phone</h4>
                     <p>Feel free to call us for more information.</p>
                     <p>+1 (647) 953-2393</p>
                 </div>
-                <div>
-                    <img src={locationIcon} alt="location icon" />
+                <div className="flex flex-col gap-3">
+                    <div >
+                        <img src={locationIcon} alt="location icon" className="icon-base-style"/>
+                    </div>
                     <h4>Office</h4>
                     <p>Visit us at our office location in Toronto.</p>
                     <p>Toronto, ON</p>

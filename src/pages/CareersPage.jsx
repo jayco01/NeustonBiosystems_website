@@ -6,7 +6,7 @@ import CareersCta from "../components/careers/CareersCta.jsx";
 export default function CareersPage() {
     function H1Text() {
         return (
-            <h1>Join Our Mission</h1>
+            <h1 className="text-neuston-Amber-Lightest">Join Our Mission</h1>
         );
     }
     const subHeading = "";

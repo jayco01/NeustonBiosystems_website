@@ -6,7 +6,7 @@ import CommonNewsletterForm from "../components/common/CommonNewsletterForm.jsx"
 export default function ContactPage() {
     function H1Text() {
         return(
-            <h1>Let's Connect</h1>
+            <h1 className="text-neuston-Amber-Lightest">Let's Connect</h1>
         );
     }
     const subHeading = "";
