@@ -1,4 +1,4 @@
-import costScaleGraph from "../../assets/MidScale-PricedOut.png"
+import costScaleGraph from "../../../public/images/MidScale-PricedOut.png"
 
 export default function InvestorsProblemStatement() {
     return (

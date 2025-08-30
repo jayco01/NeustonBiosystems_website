@@ -1,5 +1,5 @@
 import CommonHero from "../components/common/CommonHero.jsx";
-import heroImage from "../assets/two-guys-making-cheese.jpg";
+import heroImage from "../../public/images/two-guys-making-cheese.jpg";
 import ContactInfo from "../components/contact-us/ContactInfo.jsx";
 import CommonNewsletterForm from "../components/common/CommonNewsletterForm.jsx";
 

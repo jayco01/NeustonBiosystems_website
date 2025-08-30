@@ -1,5 +1,5 @@
 import CommonHero from "../components/common/CommonHero.jsx";
-import heroImage from "../assets/two-guys-making-cheese.jpg";
+import heroImage from "../../public/images/two-guys-making-cheese.jpg";
 import CommonCta from "../components/common/CommonCta.jsx";
 import InvestorsProblemStatement from "../components/for-investors/InvestorsProblemStatement.jsx";
 import InvestorsTargetMarget from "../components/for-investors/InvestorsTargetMarget.jsx";

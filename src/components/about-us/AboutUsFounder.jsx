@@ -1,4 +1,4 @@
-import scottImage from "../../assets/Scott Pierobon-8002_1MB_cropped.png"
+import scottImage from "../../../public/images/Scott Pierobon-8002_1MB_cropped.png"
 
 export default function AboutUsFounder() {
     return (

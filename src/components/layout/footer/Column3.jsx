@@ -1,4 +1,4 @@
-import linkedinIcon from "../../../assets/LinkedIn_Icon.svg"
+import linkedinIcon from "../../../../public/images/LinkedIn_Icon.svg"
 import {Link} from "react-router-dom";
 
 export default function Column3() {

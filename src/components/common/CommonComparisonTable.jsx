@@ -1,8 +1,8 @@
-import neustonLogo from '../../assets/NeustonBiosystemsLOGO.png'
-import truckIcon from '../../assets/truck_icon.svg'
-import sewerIcon from '../../assets/sewer_icon.svg'
-import checkIcon from '../../assets/check_icon.png'
-import closeIcon from '../../assets/close_icon.png'
+import neustonLogo from '../../../public/images/NeustonBiosystemsLOGO.png'
+import truckIcon from '../../../public/images/truck_icon.svg'
+import sewerIcon from '../../../public/images/sewer_icon.svg'
+import checkIcon from '../../../public/images/check_icon.png'
+import closeIcon from '../../../public/images/close_icon.png'
 
 export default function CommonComparisonTable() {
     return (

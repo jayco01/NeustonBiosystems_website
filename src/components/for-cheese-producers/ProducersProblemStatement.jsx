@@ -1,4 +1,4 @@
-import mixingCheese from "../../assets/CheeseWhey.jpg"
+import mixingCheese from "../../../public/images/CheeseWhey.jpg"
 
 export default function ProducersProblemStatement() {
     return (

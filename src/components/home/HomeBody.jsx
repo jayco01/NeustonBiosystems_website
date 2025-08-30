@@ -1,6 +1,6 @@
-import recycleIcon from "../../assets/recycle_icon.png"
-import profitIcon from "../../assets/profit_icon.png"
-import joinIcon from "../../assets/join_icon.png"
+import recycleIcon from "../../../public/images/recycle_icon.png"
+import profitIcon from "../../../public/images/profit_icon.png"
+import joinIcon from "../../../public/images/join_icon.png"
 
 export default function HomeBody() {
     return (

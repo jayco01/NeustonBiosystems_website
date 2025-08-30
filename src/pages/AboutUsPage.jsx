@@ -1,5 +1,5 @@
 import CommonHero from "../components/common/CommonHero.jsx";
-import heroImage from "../assets/two-guys-making-cheese.jpg";
+import heroImage from "../../public/images/two-guys-making-cheese.jpg";
 import AboutUsFounder from "../components/about-us/AboutUsFounder.jsx";
 
 export default function AboutUsPage() {

@@ -1,6 +1,6 @@
 import CommonHero from "../components/common/CommonHero.jsx";
 import CommonComparisonTable from "../components/common/CommonComparisonTable.jsx";
-import heroImage from "../assets/two-guys-making-cheese.jpg"
+import heroImage from "../../public/images/two-guys-making-cheese.jpg"
 import CommonCta from "../components/common/CommonCta.jsx";
 import ProducersProblemStatement from "../components/for-cheese-producers/ProducersProblemStatement.jsx";
 import ProducersListOfProblems from "../components/for-cheese-producers/ProducersListOfProblems.jsx";
