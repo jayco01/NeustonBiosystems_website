@@ -9,7 +9,7 @@ export default function InvestorsProblemStatement() {
                 </div>
                 <div className="flex flex-col md:gap-6 gap-3">
                     <p>Mid-scale food producers (15-150 employees) are trapped in a financial bind.
-                        <span className="text-content-highlight">They generate too much wastewater for small-scale solutions but lack the revenue for large, industrial systems.</span> </p>
+                        <span className="text-content-highlight"> They generate too much wastewater for small-scale solutions but lack the revenue for large, industrial systems. </span> </p>
                     <div>
                         <p>This leaves them with two unaffordable choices: </p>
                         <ul className="list-inside list-disc">

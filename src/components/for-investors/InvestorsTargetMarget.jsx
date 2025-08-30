@@ -9,7 +9,7 @@ export default function InvestorsTargetMarget() {
             <div className="flex-2 flex flex-col md:gap-8 gap-4 md:order-2">
                 <h2 className="max-w-155">A Significant, Underserved Market</h2>
                 <p>The cheese wastewater cleanup market is substantial, valued at
-                    <span className="text-content-highlight">$130M in Canada and $1.6B in the USA.</span>
+                    <span className="text-content-highlight"> $130M in Canada and $1.6B in the USA. </span>
                     Our target, the underserved mid-scale producers, represents a significant 20-30% of this market.
                     Our initial strategy focuses on the dense cluster of producers in Ontario, providing a clear and concentrated point of entry.
                 </p>

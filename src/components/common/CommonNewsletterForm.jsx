@@ -3,8 +3,8 @@ export default function CommonNewsletterForm() {
     const MAILERLITE_ACTION_URL = "https://assets.mailerlite.com/jsonp/your_unique_id/forms/your_form_id/subscribe";
 
     return (
-        <section className="fluid-layout-padding bg-neuston-Amber-Lighter text-neuston-Amber-Darkest flex flex-col items-center gap-6">
-            <h2 className="">Stay Connected with Us</h2>
+        <section className="fluid-layout-padding bg-neuston-Amber-Lighter text-neuston-Amber-Darkest flex flex-col items-center gap-3">
+            <h2 >Stay Connected with Us</h2>
             <p className="mt-2 text-neuston-Amber-Darkest">
                 Stay up to date with our progress and innovations in wastewater treatment technology.
             </p>

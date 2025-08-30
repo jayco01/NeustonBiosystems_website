@@ -6,7 +6,7 @@ export default function ProducersProblemStatement() {
           <div className="flex-1 flex flex-col md:gap-8 ">
               <h2 className="xl:text-9xl xl: leading-32">A Costly Mid-Scale Dilemma</h2>
               <p>As a mid-sized cheese producers, you're likely caught in a tough spot.
-                  <span className="text-content-highlight">You produce too much whey for simple disposal, yet not enough to justify a large-scale treatment system.</span>
+                  <span className="text-content-highlight"> You produce too much whey for simple disposal, yet not enough to justify a large-scale treatment system. </span>
               </p>
           </div>
           <div className="flex-1">
