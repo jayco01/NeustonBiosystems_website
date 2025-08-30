@@ -3,9 +3,9 @@ export default function CommonNewsletterForm() {
     const MAILERLITE_ACTION_URL = "https://assets.mailerlite.com/jsonp/your_unique_id/forms/your_form_id/subscribe";
 
     return (
-        <div>
-            <h3 className="text-lg font-bold">Stay Connected with Us</h3>
-            <p className="mt-2 text-gray-600">
+        <section className="fluid-layout-padding bg-neuston-Amber-Lighter text-neuston-Amber-Darkest flex flex-col items-center gap-6">
+            <h2 className="">Stay Connected with Us</h2>
+            <p className="mt-2 text-neuston-Amber-Darkest">
                 Stay up to date with our progress and innovations in wastewater treatment technology.
             </p>
             <div>
@@ -20,17 +20,17 @@ export default function CommonNewsletterForm() {
                         name="fields[email]" // Email Input name will be replaced ones Scott Finish signing up for mailerlite
                         placeholder="Enter your email"
                         required
-                        className="w-full px-4 py-2 border border-gray-300 rounded-l-md focus:ring-green-500 focus:border-green-500"
+                        className="w-full px-4 py-2 border text-neuston-Amber-Dark rounded-l-md focus:ring-green-500 focus:border-green-500 font-bold"
                     />
                     <button
                         type="submit"
-                        className="bg-green-600 text-white px-6 py-2 rounded-r-md hover:bg-green-700"
+                        className="btn-base-style bg-neuston-Amber text-neuston-Amber-Darkest hover:bg-neuston-Amber-Lightest border-solid border-2 border-neuston-Amber"
                     >
                         Subscribe Now
                     </button>
                 </form>
                 <p>By clicking Subscribe Now, you agree to our Terms and Conditions.</p>
             </div>
-        </div>
+        </section>
     );
 }
