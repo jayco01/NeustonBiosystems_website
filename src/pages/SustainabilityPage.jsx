@@ -8,7 +8,7 @@ import SustainabilityCircularEconomy from "../components/sustainability/Sustaina
 export default function SustainabilityPage() {
     function H1Text() {
         return (
-            <h1> Where <span>Sustainability</span> Meets <span>Innovation</span> </h1>
+            <h1 className="max-w-200"> Where <span className="text-neuston-Amber">Sustainability</span> Meets <span className="text-neuston-Amber">Innovation</span> </h1>
         );
     }
     const subHeading = "";
