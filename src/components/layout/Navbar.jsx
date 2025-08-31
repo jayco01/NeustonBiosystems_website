@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import neustonLogo from "../../../public/images/NeustonBiosystemsLOGO.png"
+import neustonLogo from "../../assets/NeustonBiosystemsLOGO.png"
 import {useState} from "react";
 
 export default function Navbar() {

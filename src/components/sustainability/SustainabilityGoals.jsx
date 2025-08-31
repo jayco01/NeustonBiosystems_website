@@ -1,4 +1,4 @@
-import UNDiagram from "../../../public/images/UN-Sustainable-Development-Goals_graphic.png"
+import UNDiagram from "../../assets/UN-Sustainable-Development-Goals_graphic.png"
 
 export default function SustainabilityGoals() {
     return (

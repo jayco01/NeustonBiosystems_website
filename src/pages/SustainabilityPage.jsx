@@ -1,5 +1,5 @@
 import CommonHero from "../components/common/CommonHero.jsx";
-import heroImage from "../../public/images/two-guys-making-cheese.jpg";
+import heroImage from "../assets/two-guys-making-cheese.jpg";
 import CommonCta from "../components/common/CommonCta.jsx";
 import SustainabilityGoals from "../components/sustainability/SustainabilityGoals.jsx";
 import SustainabilitySolutions from "../components/sustainability/SustainabilitySolutions.jsx";

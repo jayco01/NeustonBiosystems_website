@@ -1,4 +1,4 @@
-import circularEconomyDiagram from "../../../public/images/CircularEconomy_diagram.png"
+import circularEconomyDiagram from "../../assets/CircularEconomy_diagram.png"
 
 export default function SustainabilityCircularEconomy() {
     return (

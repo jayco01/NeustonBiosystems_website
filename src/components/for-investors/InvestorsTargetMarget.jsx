@@ -1,4 +1,4 @@
-import ontarioMap from "../../../public/images/ontario_map.png"
+import ontarioMap from "../../assets/ontario_map.png"
 
 export default function InvestorsTargetMarget() {
     return (

@@ -1,5 +1,5 @@
-import productDiagram from "../../../public/images/neuston-01.jpg";
-import checkIcon from "../../../public/images/check_icon.png"
+import productDiagram from "../../assets/neuston-01.jpg";
+import checkIcon from "../../assets/check_icon.png"
 
 export default function InvestorsSolutionStatement() {
     return (

@@ -1,4 +1,4 @@
-import neustonLogo from "../../../../public/images/NeustonBiosystemsLOGO.png"
+import neustonLogo from "../../../assets/NeustonBiosystemsLOGO.png"
 import {Link} from "react-router-dom";
 export default function Column1() {
     return (

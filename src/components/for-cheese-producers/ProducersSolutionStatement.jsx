@@ -1,4 +1,4 @@
-import productDiagram from "../../../public/images/neuston-01.jpg";
+import productDiagram from "../../assets/neuston-01.jpg";
 
 export default function ProducersSolutionStatement() {
     return (

@@ -1,4 +1,4 @@
-import checkIcon from "../../../public/images/check_icon.png";
+import checkIcon from "../../assets/check_icon.png";
 
 export default function SustainabilitySolutions() {
     return (

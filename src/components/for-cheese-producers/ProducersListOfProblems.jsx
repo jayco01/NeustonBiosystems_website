@@ -1,6 +1,6 @@
-import truckIcon from "../../../public/images/truck_icon.svg";
-import sewerIcon from "../../../public/images/sewer_icon.svg";
-import chemicalPlantIcon from "../../../public/images/ChemicalPlant_Icon.png";
+import truckIcon from "../../assets/truck_icon.svg";
+import sewerIcon from "../../assets/sewer_icon.svg";
+import chemicalPlantIcon from "../../assets/ChemicalPlant_Icon.png";
 
 
 export default function ProducersListOfProblems() {

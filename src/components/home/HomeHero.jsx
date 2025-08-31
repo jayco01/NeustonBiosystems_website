@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-import heroImage from "../../../public/images/water-treatment-plant_home-page.jpg"
+import heroImage from "../../assets/water-treatment-plant_home-page.jpg"
 
 export default function HomeHero() {
     return (

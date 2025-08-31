@@ -1,5 +1,5 @@
 import CommonHero from "../components/common/CommonHero.jsx";
-import heroImage from "../../public/images/two-guys-making-cheese.jpg";
+import heroImage from "../assets/two-guys-making-cheese.jpg";
 import CareersMicroBiologyVolunteer from "../components/careers/CareersMicroBiologyVolunteer.jsx";
 import CareersCta from "../components/careers/CareersCta.jsx";
 

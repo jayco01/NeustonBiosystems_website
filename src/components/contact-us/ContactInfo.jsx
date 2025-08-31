@@ -1,6 +1,6 @@
-import emailIcon from "../../../public/images/mail_icon.svg"
-import phoneIcon from "../../../public/images/call_icon.svg"
-import locationIcon from "../../../public/images/location-on_icon.svg"
+import emailIcon from "../../assets/mail_icon.svg"
+import phoneIcon from "../../assets/call_icon.svg"
+import locationIcon from "../../assets/location-on_icon.svg"
 
 export default function ContactInfo() {
     return (
