@@ -24,7 +24,7 @@ export default function CommonNewsletterForm() {
                     />
                     <button
                         type="submit"
-                        className="btn-base-style bg-neuston-Amber text-neuston-Amber-Darkest hover:bg-neuston-Amber-Lightest border-solid border-2 border-neuston-Amber"
+                        className="btn-base-style bg-neuston-Amber text-neuston-Amber-Darkest hover:bg-neuston-Amber-Lightest border-solid border-2 border-neuston-Amber text-nowrap"
                     >
                         Subscribe Now
                     </button>
