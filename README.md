@@ -6,7 +6,7 @@ This repository contains the source code for the official corporate website of N
 
 This project was developed as a volunteer effort by Jay Layco, a Software Development student at SAIT, in collaboration with the founder, Scott Pierobon.
 
-**Live Site:** [[https://www.neustonbiosystems.com/](https://jayco01.github.io/NeustonBiosystems_website/#/)]
+**Live Site:** [[https://www.neustonbiosystems.com/](https://www.neustonbiosystems.com/#/)]
 
 ---
 
