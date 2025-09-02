@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 
 export default defineConfig({
-    base: '/NeustonBiosystems_website/',
+    base: '/',
     plugins: [
         react(),
         tailwindcss()
