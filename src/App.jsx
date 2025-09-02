@@ -8,6 +8,7 @@ import ContactPage from "./pages/ContactPage";
 import ForCheeseProducersPage from "./pages/ForCheeseProducersPage.jsx";
 import ForInvestorsPage from "./pages/ForInvestorsPage.jsx";
 import SustainabilityPage from "./pages/SustainabilityPage.jsx";
+import ThankYouPage from "./pages/ThankYouPage.jsx";
 
 export default function App() {
     return (
@@ -22,6 +23,7 @@ export default function App() {
                     <Route path="/about" element={<AboutUsPage/>} />
                     <Route path="/careers" element={<CareersPage />} />
                     <Route path="/contact" element={<ContactPage />} />
+                    <Route path="/thank-you" element={<ThankYouPage />} />
                 </Routes>
             </main>
             <Footer />
