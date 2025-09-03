@@ -1,4 +1,4 @@
-import productDiagram from "../../assets/neuston-01.jpg";
+// import productDiagram from "../../assets/neuston-01.jpg";
 import checkIcon from "../../assets/check_icon.png"
 
 export default function InvestorsSolutionStatement() {
@@ -42,7 +42,7 @@ export default function InvestorsSolutionStatement() {
                 </ul>
             </div>
             <div className="flex-1">
-                <img src={productDiagram}/>
+                {/*<img src={productDiagram}/>*/}
             </div>
         </section>
     );
