@@ -26,7 +26,7 @@ export default function InvestorsSolutionStatement() {
                             <img src={checkIcon} alt="Check Icon"  className="icon-base-style"/>
                             <div className="my-3">
                                 <h4>Higher Value Byproducts</h4>
-                                <p>Creates feed-grade products ($2-10/kg) vs. low-grade fertilizer (&lt$1/kg).</p>
+                                <p>Creates High value products that can be resold.</p>
                             </div>
                         </div>
                     </li>
