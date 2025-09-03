@@ -63,13 +63,13 @@ export default function Navbar() {
                     >
                     <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                         {navLinks.map((link) => (
-                            <a
+                            <Link
                                 key={link.label}
                                 href={link.href}
                                 className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 transition-colors"
                             >
                                 {link.label}
-                            </a>
+                            </Link>
                         ))}
                     </div>
                 </div>
