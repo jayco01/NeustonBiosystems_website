@@ -1,4 +1,4 @@
-// import mixingCheese from "../../assets/CheeseWhey.jpg"
+import mixingCheese from "../../assets/CheeseWhey.jpg"
 
 export default function ProducersProblemStatement() {
     return (
@@ -10,7 +10,7 @@ export default function ProducersProblemStatement() {
               </p>
           </div>
           <div className="flex-1">
-            {/*<img src={mixingCheese} alt="mixingCheese" className="rounded-lg"/>*/}
+            <img src={mixingCheese} alt="mixingCheese" className="rounded-lg"/>
           </div>
       </section>
     );
