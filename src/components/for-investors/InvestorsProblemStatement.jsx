@@ -3,7 +3,7 @@ import costScaleGraph from "../../assets/MidScale-PricedOut.png"
 export default function InvestorsProblemStatement() {
     return (
         <section className="bg-neuston-Amber-Lightest fluid-layout-padding flex flex-col md:flex-row md:gap-20 gap-8 items-center">
-            <div className="flex flex-col md:gap-6 gap-3">
+            <div className="flex-1 flex flex-col md:gap-6 gap-3">
                 <div>
                     <h2>The Mid-Scale is Priced Out</h2>
                 </div>
@@ -20,7 +20,7 @@ export default function InvestorsProblemStatement() {
                     <p>This 'valley of death' means a significant resource is left untapped, creating a major opportunity for an affordable, scalable solution.</p>
                 </div>
             </div>
-            <div>
+            <div className="flex-1">
                 <img src={costScaleGraph} alt="Cost Scale Graph" />
             </div>
         </section>
