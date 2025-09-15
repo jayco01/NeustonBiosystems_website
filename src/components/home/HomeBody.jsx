@@ -13,18 +13,18 @@ export default function HomeBody() {
             <div className="flex md:flex-row flex-col sm:gap-12 gap-6 text-neuston-Amber-Darkest">
                 <div className="flex flex-col items-center sm:gap-6 flex-1">
                     <img src={recycleIcon} alt="Recycle icon" className="icon-base-style"/>
-                    <h4 >Revolutionizing Wastewater Treatment for Sustainability</h4>
-                    <p>Our innovative technology purifies wastewater while generating valuable byproducts.</p>
+                    <h4>Wastewater treatment done sustainably</h4>
+                    <p>Our algae-based technology purifies wastewater while generating valuable byproducts.</p>
                 </div>
                 <div className="flex flex-col items-center sm:gap-6 flex-1">
                     <img src={profitIcon} alt="Profit icon" className="icon-base-style"/>
-                    <h4>Creating Opportunities Through Sustainable Practices</h4>
-                    <p>We turn waste management costs into profitable opportunities.</p>
+                    <h4>Creating opportunities through sustainability</h4>
+                    <p>We turn waste management costs into profitable up-cycling opportunities.</p>
                 </div>
                 <div className="flex flex-col items-center sm:gap-6 flex-1">
                     <img src={joinIcon} alt="Join icon" className="icon-base-style"/>
-                    <h4>Join Us in Making Sustainability Profitable</h4>
-                    <p>Partner with us to embrace a sustainable future.</p>
+                    <h4>Making remediation more affordable</h4>
+                    <p>Our solution avoids the complexity and costs of traditional systems.</p>
                 </div>
             </div>
         </section>
