@@ -3,6 +3,7 @@ import truckIcon from '../../assets/truck_icon.svg'
 import sewerIcon from '../../assets/sewer_icon.svg'
 import checkIcon from '../../assets/check_icon.png'
 import closeIcon from '../../assets/close_icon.png'
+import waterTreatmentPlantIcon from '../../assets/water-treatment-plant_icon.png'
 
 export default function CommonComparisonTable() {
     return (
@@ -14,7 +15,7 @@ export default function CommonComparisonTable() {
                       <th scope="col" className="sm:px-6 sm:py-3 ">
                           <div className="flex flex-col items-center justify-center">
                               <img src={neustonLogo} alt="Neuston Logo" className="max-w-21 max-h-10" />
-                              <h5>Neuston Biosystem</h5>
+                              <h5>Neuston’s Biosystem</h5>
                           </div>
                       </th>
                       <th scope="col" className="sm:px-6 sm:py-3  ">
@@ -27,6 +28,12 @@ export default function CommonComparisonTable() {
                           <div className="flex flex-col items-center justify-center">
                               <img src={sewerIcon} alt="Sewer Icon" className="icon-base-style" />
                               <h5>Sewer Disposal</h5>
+                          </div>
+                      </th>
+                      <th scope="col" className="sm:px-6 sm:py-3  ">
+                          <div className="flex flex-col items-center justify-center">
+                              <img src={waterTreatmentPlantIcon} alt="Water Treatment Plant Icon" className="icon-base-style" />
+                              <h5>Traditional Treatment Systems</h5>
                           </div>
                       </th>
                   </tr>
@@ -49,6 +56,11 @@ export default function CommonComparisonTable() {
                         <img src={closeIcon} alt="Close Icon" className="icon-base-style" />
                             </div>
                     </td>
+                    <td>
+                        <div className="flex items-center justify-center">
+                        <img src={checkIcon} alt="Close Icon" className="icon-base-style" />
+                            </div>
+                    </td>
                 </tr>
                 <tr className="border-solid border-b-1 border-neuston-Amber-Darkest">
                     <th scope="row" className="text-left">Creates Valuable Byproduct</th>
@@ -67,6 +79,11 @@ export default function CommonComparisonTable() {
                         <img src={closeIcon} alt="Close Icon" className="icon-base-style" />
                             </div>
                     </td>
+                    <td>
+                        <div className="flex items-center justify-center">
+                        <img src={checkIcon} alt="Close Icon" className="icon-base-style" />
+                            </div>
+                    </td>
                 </tr>
                 <tr className="border-solid border-b-1 border-neuston-Amber-Darkest">
                     <th scope="row" className="text-left">Low On-site Footprint</th>
@@ -81,9 +98,19 @@ export default function CommonComparisonTable() {
                     <td>
                         N/A
                     </td>
+                    <td>
+                      <div className="flex items-center justify-center">
+                        <img src={closeIcon} alt="Check Icon" className="icon-base-style" />
+                      </div>
+                    </td>
                 </tr>
                 <tr className="border-solid border-b-1 border-neuston-Amber-Darkest">
-                    <th scope="row" className="text-left">Environment Compliance</th>
+                    <th scope="row" className="text-left">Environmental Compliance</th>
+                    <td>
+                        <div className="flex items-center justify-center">
+                        <img src={checkIcon} alt="Check Icon" className="icon-base-style" />
+                            </div>
+                    </td>
                     <td>
                         <div className="flex items-center justify-center">
                         <img src={checkIcon} alt="Check Icon" className="icon-base-style" />
@@ -109,7 +136,12 @@ export default function CommonComparisonTable() {
                     </td>
                     <td>
                         <div className="flex items-center justify-center">
-                        <img src={closeIcon} alt="Close Icon" className="icon-base-style" />
+                        <img src={checkIcon} alt="Close Icon" className="icon-base-style" />
+                            </div>
+                    </td>
+                    <td>
+                        <div className="flex items-center justify-center">
+                        <img src={checkIcon} alt="Check Icon" className="icon-base-style" />
                             </div>
                     </td>
                     <td>
