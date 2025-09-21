@@ -27,7 +27,7 @@ export default function SustainabilitySolutions() {
                     <img src={checkIcon} alt="Check Icon"/>
                     <div>
                         <h4>Creating Sustainable Products</h4>
-                        <p>The microalgae from our system is a nutrient-rich, sustainable alternative for biofertilizers and animal feed.</p>
+                        <p>The microalgae from our system is a nutrient-rich, sustainable alternative for biofertilizers.</p>
                     </div>
                         </div>
                 </li>

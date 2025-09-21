@@ -6,8 +6,8 @@ export default function InvestorsFundingNumbers() {
             </div>
             <div className="flex-1 flex flex-col gap-6">
                 <p>Invest in a sustainable future with Neuston Biosystems. Together, we can transform waste into valuable resources.</p>
-                <p>We are actively fundraising and seeking strategic partners for tech development, trialing, and certification.</p>
-                <p>Contact us to learn more about investment opportunities.</p>
+                <p className="text-content-highlight">We are actively fundraising and seeking strategic partners for tech development, trialing, and certification.</p>
+                <p className="text-content-highlight">Contact us to learn more about investment opportunities.</p>
             </div>
         </section>
     );
