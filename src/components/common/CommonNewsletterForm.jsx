@@ -5,7 +5,7 @@ export default function CommonNewsletterForm() {
         <section className="fluid-layout-padding bg-neuston-Amber-Lighter text-neuston-Amber-Darkest flex flex-col items-center gap-3">
             <h2>Stay Connected with Us</h2>
             <p className="mt-2 text-neuston-Amber-Darkest text-center">
-                Stay up to date with our progress and innovations in wastewater treatment technology.
+              Sign up to our newsletter to stay up to date with our progress and innovations in wastewater treatment technology..
             </p>
             <div>
                 <form

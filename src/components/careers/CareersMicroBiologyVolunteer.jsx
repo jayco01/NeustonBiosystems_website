@@ -6,16 +6,17 @@ export default function CareersMicroBiologyVolunteer() {
                 <div className="flex flex-col gap-4">
                     <div>
                         <h4>The Opportunity</h4>
-                        <p>Neuston Biosystems is an early-stage cleantech and agtech hardware startup in the Food & Beverage sector.
+                        <p>
+                            Neuston Biosystems is an early-stage cleantech and agtech hardware startup in the Food & Beverage sector.
                             We are seeking a volunteer to support the development of our innovative wastewater solution for Ontario's cheesemakers.
                             Our company is creating a biological wastewater treatment system that transforms food processing waste, especially cheese whey,
                             into microalgal biomass products like biofertilizers for agricultural use. This decentralized, scalable technology aims to reduce
                             waste management costs, support operational sustainability for food producers, and help them participate in circular agri-food bioeconomies.
                         </p>
-                        <p>The successful candidate will assist with bench-scale prototype development, analyze microbial system performance, and optimize bioprocesses
+                        <p>
+                            The successful candidate will assist with bench-scale prototype development, analyze microbial system performance, and optimize bioprocesses
                             through data-driven methods. This role combines wet-lab microbiology, bioreactor engineering, and computational data analysis to improve our
-                            system and move toward a minimum viable product (MVP). The volunteer will work directly with our founders, a bioreactor engineer and a
-                            business executive, in a dynamic and collaborative environment to advance our early-stage research and technology development.
+                            system and move toward a minimum viable product (MVP). The volunteer will work directly with our founders, in a dynamic and collaborative environment to advance our early-stage research and technology development.
                         </p>
                     </div>
                     <div>

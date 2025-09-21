@@ -11,6 +11,9 @@ export default function AboutUsFounder() {
                     His work focuses on micro- and nano-technologies spanning optics, fluidics, and biophysics.
                     He holds a PhD in Mechanical Engineering with a specialization in algae bioreactor design, bringing a wealth of direct expertise to Neuston's mission.
                 </p>
+                <p className="text-content-highlight">
+                    Our team includes microbiologists, bioreactor specialists, past food industry executives, and University research partners.
+                </p>
             </div>
             <img src={scottImage} alt="Profile picture of the Founder Scott Prierobon"/>
         </section>

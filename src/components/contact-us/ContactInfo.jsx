@@ -26,9 +26,9 @@ export default function ContactInfo() {
                     <div >
                         <img src={locationIcon} alt="location icon" className="icon-base-style"/>
                     </div>
-                    <h4>Office</h4>
+                    <h4>Mailing Address</h4>
                     <p>Visit us at our office location in Toronto.</p>
-                    <p>Toronto, ON</p>
+                    <p>1181-2482 Yonge Street, Toronto, ON, M4P 2H5, Canada</p>
                 </div>
             </div>
         </section>
