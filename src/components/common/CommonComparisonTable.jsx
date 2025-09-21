@@ -131,23 +131,23 @@ export default function CommonComparisonTable() {
                     <th scope="row" className="text-left">Scales with Production</th>
                     <td>
                         <div className="flex items-center justify-center">
-                        <img src={checkIcon} alt="Check Icon" className="icon-base-style" />
-                            </div>
+                            <img src={checkIcon} alt="Check Icon" className="icon-base-style" />
+                        </div>
                     </td>
                     <td>
                         <div className="flex items-center justify-center">
-                        <img src={checkIcon} alt="Close Icon" className="icon-base-style" />
-                            </div>
+                            <img src={checkIcon} alt="Close Icon" className="icon-base-style" />
+                        </div>
                     </td>
                     <td>
                         <div className="flex items-center justify-center">
-                        <img src={checkIcon} alt="Check Icon" className="icon-base-style" />
-                            </div>
+                            <img src={checkIcon} alt="Check Icon" className="icon-base-style" />
+                        </div>
                     </td>
                     <td>
                         <div className="flex items-center justify-center">
-                        <img src={closeIcon} alt="Close Icon" className="icon-base-style" />
-                            </div>
+                            <img src={closeIcon} alt="Close Icon" className="icon-base-style" />
+                        </div>
                     </td>
                 </tr>
               </tbody>

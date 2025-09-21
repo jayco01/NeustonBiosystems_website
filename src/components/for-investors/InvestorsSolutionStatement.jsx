@@ -8,7 +8,7 @@ export default function InvestorsSolutionStatement() {
                 <h2>A Smarter, More Valuable Approach</h2>
                 <p>Instead of complex, energy-intensive machinery, our system uses a modular design with advanced materials to create a self-regulating microbial ecosystem.
                     This approach
-                    <span>dramatically lowers capital costs and allows us to upcycle pollutants into high-value, food-grade byproducts worth up to 10x more</span>
+                     <span> dramatically lowers capital costs and allows us to upcycle pollutants into high-value, byproducts worth up to 10x more </span>
                     than those from conventional systems.
                 </p>
                 <ul className="list-none">

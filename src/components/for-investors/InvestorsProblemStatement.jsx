@@ -13,8 +13,8 @@ export default function InvestorsProblemStatement() {
                     <div>
                         <p>This leaves them with two unaffordable choices: </p>
                         <ul className="list-inside list-disc">
-                            <li>paying over $100,000 per year for off-site hauling </li>
-                            <li>or facing capital costs exceeding $350,000 for inefficient on-site systems. </li>
+                            <li>paying over $100,000 per year for off-site hauling or sewer surcharges</li>
+                            <li>or facing capital costs exceeding $100,000 for inefficient on-site systems. </li>
                         </ul>
                     </div>
                     <p>This 'valley of death' means a significant resource is left untapped, creating a major opportunity for an affordable, scalable solution.</p>

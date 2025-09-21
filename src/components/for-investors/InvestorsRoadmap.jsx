@@ -14,7 +14,7 @@ export default function InvestorsRoadmap() {
             <div className="flex flex-col gap-4 md:gap-8">
                 <h2>Our Roadmap to Commercialization</h2>
                 <p className="max-w-225">
-                    Our journey is structured in three key stages, each designed to ensure our technology is market-ready.
+                    Our journey is structured in three key stages, each designed to ensure our technology is robust and market-ready.
                     We aim to validate, pilot, and scale our innovative solution for the cheese industry.
                 </p>
             </div>
