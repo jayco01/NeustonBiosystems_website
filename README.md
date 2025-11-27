@@ -32,7 +32,7 @@ To run this project on your local machine, please follow these steps.
 
 2.  **Navigate to the Project Directory**
     ```bash
-    cd neuston-website
+    cd NeustonBiosystems_website
     ```
 
 3.  **Install Dependencies**
